@@ -53,13 +53,14 @@ Make sure you have the following installed:
    npm install
    ```
 
-3. **Set up APIs**  
+3. **Set up APIs**       
    - Get your **Google Maps API key** from [Google Cloud Console](https://console.cloud.google.com).  
    - Get access to **Gemini API** for AI-based itinerary planning.
    - Create a `.env` file in the project root:
      ```dotenv
-     REACT_APP_GOOGLE_MAPS_API_KEY=your_google_maps_key
-     REACT_APP_GEMINI_API_KEY=your_gemini_api_key
+     VITE_GOOGLE_PLACE_API=your_google_maps_key
+     VITE_GEMINI_API_KEY=your_gemini_api_key
+     VITE_API_KEY=your_api_key
      ```
 
 4. **Run the App**  
